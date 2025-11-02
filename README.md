@@ -10,7 +10,7 @@
 
 **A production-grade study productivity platform combining focus tools, planning, real-time collaboration, and AI-powered mentorship.**
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [API Docs](#-api-documentation)
+[Features](#-features) • [Demo](#-demo) • [Tech Stack](#-tech-stack) • [API Docs](#-api-documentation)
 
 </div>
 
@@ -99,6 +99,26 @@ StudySync is a comprehensive web application designed to revolutionize how stude
 - Theme customization options
 
 ---
+### Roadmap to Upcoming Features 🚀
+
+**v2.0**
+- [ ] Mobile app (React Native)
+- [ ] Offline mode with sync
+- [ ] Advanced analytics dashboard
+- [ ] Study streak tracking
+- [ ] Social features (friend system)
+
+**v2.1**
+- [ ] Video call integration for study rooms
+- [ ] Whiteboard collaboration
+- [ ] Flashcard system
+- [ ] Study goal templates
+
+**v3.0**
+- [ ] AI-powered study schedule optimization
+- [ ] Integration with learning platforms (Coursera, Udemy)
+- [ ] Gamification elements
+- [ ] Team/class management features
 
 ## 🎨 Design Philosophy
 
@@ -164,63 +184,6 @@ Emergent LLM Key     - Universal API access
 
 ---
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js 16+ and Yarn
-- Python 3.11+
-- MongoDB (running on localhost:27017)
-
-### Quick Start
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/studysync.git
-cd studysync
-```
-
-2. **Backend Setup**
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-3. **Frontend Setup**
-```bash
-cd frontend
-yarn install
-
-# Configure environment variables
-cp .env.example .env
-# Edit .env with your backend URL
-```
-
-4. **Start Development Servers**
-
-**Terminal 1 - Backend:**
-```bash
-cd backend
-uvicorn server:app --reload --host 0.0.0.0 --port 8001
-```
-
-**Terminal 2 - Frontend:**
-```bash
-cd frontend
-yarn start
-```
-
-5. **Access the Application**
-- Frontend: `http://localhost:3000`
-- Backend API: `http://localhost:8001`
-- API Docs: `http://localhost:8001/docs`
-
----
 
 ## 🔧 Configuration
 
@@ -670,45 +633,6 @@ yarn test
 
 ---
 
-## 🚀 Deployment
-
-### Production Checklist
-
-- [ ] Change JWT_SECRET to a strong random value
-- [ ] Set up MongoDB Atlas or production database
-- [ ] Configure CORS for production domain
-- [ ] Enable HTTPS/SSL
-- [ ] Set up environment-specific configs
-- [ ] Implement rate limiting
-- [ ] Add logging and monitoring
-- [ ] Set up backup strategies
-- [ ] Configure CDN for static assets
-- [ ] Enable compression middleware
-
-### Deployment Options
-
-**Option 1: Docker**
-```dockerfile
-# Example Dockerfile structure
-FROM python:3.11 AS backend
-# Backend setup...
-
-FROM node:18 AS frontend
-# Frontend build...
-```
-
-**Option 2: Traditional Hosting**
-- Backend: AWS EC2, DigitalOcean, Heroku
-- Frontend: Vercel, Netlify, AWS S3 + CloudFront
-- Database: MongoDB Atlas
-
-**Option 3: Kubernetes**
-- Container orchestration
-- Auto-scaling capabilities
-- Load balancing
-
----
-
 ## 📊 Performance Optimization
 
 ### Current Optimizations
@@ -739,26 +663,7 @@ FROM node:18 AS frontend
 - Large file uploads (>10MB) may timeout
 - Mobile responsive design needs refinement on tablets
 
-### Roadmap
 
-**v2.0**
-- [ ] Mobile app (React Native)
-- [ ] Offline mode with sync
-- [ ] Advanced analytics dashboard
-- [ ] Study streak tracking
-- [ ] Social features (friend system)
-
-**v2.1**
-- [ ] Video call integration for study rooms
-- [ ] Whiteboard collaboration
-- [ ] Flashcard system
-- [ ] Study goal templates
-
-**v3.0**
-- [ ] AI-powered study schedule optimization
-- [ ] Integration with learning platforms (Coursera, Udemy)
-- [ ] Gamification elements
-- [ ] Team/class management features
 
 ---
 

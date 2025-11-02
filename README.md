@@ -6,7 +6,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110.1-009688?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=flat&logo=react)](https://reactjs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=flat&logo=mongodb)](https://www.mongodb.com/)
-
+[![Preview Website](https://learnlink-62.preview.emergentagent.com/)
 
 **A production-grade study productivity platform combining focus tools, planning, real-time collaboration, and AI-powered mentorship.**
 
@@ -15,10 +15,18 @@
 </div>
 
 ---
+## 🚀 **This project was built using [Emergent](https://emergent.sh) — a powerful AI agent capable of autonomously developing full-stack applications.**  
+Our team contributed a **unique idea 💡** and applied **clever prompt engineering 🧠** to guide the AI in bringing it to life.  
+While Emergent handled the heavy lifting — from design to deployment — our **strategic direction and creativity** made the final outcome truly stand out. ✨  
+
+⚡ **Note:** This project was built entirely on the **free tier of Emergent**, which does not support external deployment.  
+🔗 The **link provided below** will take you to a **fully functional preview** of the web app.
+[![Preview Website](https://learnlink-62.preview.emergentagent.com/)
 
 ## 📖 Overview
 
 StudySync is a comprehensive web application designed to revolutionize how students study, plan, and collaborate. Built with modern technologies and a stunning glassmorphic UI, it combines the best aspects of productivity tools into one seamless experience.
+
 
 ### Why StudySync?
 
@@ -787,6 +795,6 @@ copies or substantial portions of the Software.
 
 
 
-[Website](https://learnlink-62.preview.emergentagent.com/)
+[Preview Website](https://learnlink-62.preview.emergentagent.com/)
 
 </div>

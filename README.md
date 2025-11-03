@@ -17,7 +17,7 @@
 ---
 ## 🚀 **This project was built using [Emergent](https://emergent.sh) — a powerful AI agent capable of autonomously developing full-stack applications.**  
 Our team contributed a **unique idea 💡** and applied **clever prompt engineering 🧠** to guide the AI in bringing it to life.  
-While Emergent handled the heavy lifting — from design to deployment — our **strategic direction and creativity** made the final outcome truly stand out. ✨  
+While Emergent handled the heavy lifting — from design to backend functionality — our **strategic direction and creativity** made the final outcome truly stand out. ✨  
 
 ⚡ **Note:** This project was built entirely on the **free tier of Emergent**, which does not support external deployment.  
 🔗 The **link provided below** will take you to a **fully functional preview** of the web app.
